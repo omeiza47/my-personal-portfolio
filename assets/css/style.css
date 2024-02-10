@@ -254,9 +254,10 @@ header{
 
 .header__cta{
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .header__socials{
@@ -595,6 +596,7 @@ footer{
     display: flex;
     gap: 1.5rem;
     margin: 3rem auto 4rem;
+    align-items: center;
 }
 
 .footer__socials a{
@@ -602,6 +604,8 @@ footer{
     color: rgb(16, 1, 31);
     padding: 0.4rem;
     display: flex;
+    width: 124%;
+    height: 100%;
     border-radius: 50%;
     transition: var(--transition);
 }
